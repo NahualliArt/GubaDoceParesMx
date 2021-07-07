@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+/** COLORS **/
+$black: #0B0B0B;
+$red: #C24643;
+$white: #F0EFEF;
+
+/** FONTS **/
+$basicFont: 'Exo', sans-serif, 22px;
+$smallFont: 'Exo', sans-serif, 15px;
+
+/** IMGAGES **/
+$back-image: url('../assets/img/background.jpg') cover, 100vh, 100vw;
+
+
+$titleFont-h1: 'Krona One', sans-serif, 65px;
+$titleFont-h2: 'Krona One', sans-serif, 55px;
+$titleFont-h3: 'Krona One', sans-serif, 45px;
+$titleFont-h4: 'Krona One', sans-serif, 35px;
+
+
+*{
+  box-sizing: border-box;
+  margin:0; padding: 0;
+}

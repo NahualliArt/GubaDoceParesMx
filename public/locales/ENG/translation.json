@@ -1,0 +1,27 @@
+{
+    "title": "Welcome to react using react-i18next",
+    "menu" :  {
+      "1": "Home",
+      "2": "About",
+      "3": "Classes",
+      "4": "Find Us"
+    },
+    "description": {
+      "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
+      "part2": "Switch language between english and german using buttons above.",
+      "part3": "little text just for fun hehehe"
+    },
+    "end": "The end",
+    "hellos" : {
+      "1" : "Hello Home",
+      "2" : "Hello About Us",
+      "3" : "Hello Classes",
+      "4" : "Hello Contact"
+    },
+    "home" : {
+      "titleName" : "A clan of authentic Filipino Eskrima-Kali-Arnis with direct lineage to the original Masters and their old teachings.",
+      "aboutUs" : "About Us",
+      "classes" : "Classes",
+      "findUs" : "Find Us"
+    }
+  }
