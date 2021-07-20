@@ -1,9 +1,8 @@
 import React from 'react';
 import { useTranslation, withTranslation, Trans } from 'react-i18next';
 import '../styles/App.scss';
-import * as  SiIcons from "react-icons/si";
-import * as RiIcons from "react-icons/ri";
-import { Link } from 'react-router-dom';
+import '../styles/Home.scss';
+import imgHome from '../assets/img/29.png';
 
 function Home() {
 
@@ -11,7 +10,16 @@ function Home() {
 
     return (
         <>
-            <p>NO NO NO</p>
+            <div className="containerHome">
+                <div className="imageHome">
+                    <img src={imgHome} alt="for decoration"/>
+                </div>
+                <div className="textHome">
+                    <h1>GUBA DOCE PARES MEXICO</h1>
+                    <h3>A clan of authentic Filipino Eskrima-Kali-Arnis with direct lineage to the original Masters
+                         and their old teachings.</h3>
+                </div>
+            </div>
         </>
     )
 }

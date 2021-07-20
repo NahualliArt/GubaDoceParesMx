@@ -4,8 +4,7 @@ import { useTranslation, withTranslation, Trans } from 'react-i18next';
 import '../styles/App.scss';
 import '../styles/NavBar.scss';
 import { IconContext } from 'react-icons';
-import * as FaIcons from "react-icons/fa";
-import * as IoIcons from "react-icons/io";
+import * as FaIcons from "react-icons/fa/index";    
 import ENG from '../assets/img/ENG.png';
 import SPA from '../assets/img/SPA.png';
 
@@ -21,8 +20,7 @@ function NavBar() {
 
     return (
         <>
-
-            <IconContext.Provider value={{color: '#fff'}}>
+            {/**  <IconContext.Provider value={{color: '#fff'}}>
                 <div className="navBar">
                     <Link to="#" className="menu-bars">
                         <FaIcons.FaBars onClick={showSidebar}/>
@@ -74,14 +72,49 @@ function NavBar() {
                         <li>
                            <div className="languageMenu"> 
                                {/*<button type="button" onClick={() => changeLanguage('ESP')}>ESP</button>*/}
-                                <img src={SPA} onClick={() => changeLanguage('ESP')} style={{"pointer-events": "all"}}/>
+                               {/* <img src={SPA} onClick={() => changeLanguage('ESP')} style={{"pointer-events": "all"}}/>
                                 {/*<button type="button" onClick={() => changeLanguage('ENG')}>ENG</button>*/}
-                                <img src={ENG} onClick={() => changeLanguage('ENG')} style={{"pointer-events": "all"}}/>
+                               {/* <img src={ENG} onClick={() => changeLanguage('ENG')} style={{"pointer-events": "all"}}/>
                             </div>
                         </li>
                     </ul>
                 </nav>
-            </IconContext.Provider>
+            </IconContext.Provider>*/}
+
+            <div className="contenderMenu">
+                <div className="language">
+                    <img src={SPA} alt="Boton para lenguaje Español"/>
+                    <img src={ENG} alt="Button for English Language"/>
+                </div>
+                <div  className="menuLinks">
+                        <ul>
+                            <li>GDPMX</li>
+                            <li>NOSOTROS</li>
+                            <li>CLASES</li>
+                            <li>ENCÚENTRANOS</li>
+                        </ul>
+                </div>
+                <div className="iconsSocials">
+                    <ul>
+                        <li>
+                            <FaIcons.FaFacebookSquare/>
+                        </li>
+                        <li>
+                            <FaIcons.FaInstagramSquare/>
+                        </li>
+                        <li>
+                            <FaIcons.FaYoutube/>
+                        </li>
+                        <li>
+                            <FaIcons.FaWhatsappSquare/>
+                        </li>
+                        <li>
+                            <FaIcons.FaYoutube/>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
         </>
     )
 }

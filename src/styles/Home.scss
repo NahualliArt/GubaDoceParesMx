@@ -1,0 +1,54 @@
+@use "./App.scss";
+
+.containerHome{
+    width: 100vw;
+    height: 93vh;
+    padding: 2% 12%;
+    position: relative;
+    top: 1vh; left: 0;
+    z-index: -1;
+    /** GRID CONTAINER **/
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: 3;
+
+    overflow: hidden;
+    background-image: url('../assets/img/background.jpg');
+
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+
+
+    .imageHome{
+        grid-column-start: 2;
+        grid-column-end: 7;
+        grid-column: span 6;    
+        padding: 4%;
+        margin-top: 6%;
+
+        img{
+            width: 30vw;
+            height: auto;
+            padding-top: 12px;
+        }
+    }
+
+    .textHome{
+        grid-column-start: 9;
+        grid-column-end: 14;
+        grid-column: span 6;
+
+        h1{
+            font-family: 'Krona One', sans-serif;
+            font-size: 60px;
+            color: App.$red;
+        }
+
+        h3{
+            color: App.$white;
+        }
+        
+    }
+}
