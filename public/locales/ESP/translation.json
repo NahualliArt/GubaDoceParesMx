@@ -1,27 +1,16 @@
 {
-    "title": "Holis a react usando react-i18next",
     "menu" :  {
       "1": "Inicio",
-      "2": "Nosotros",
-      "3": "Clases",
-      "4": "Contacto"
-    },
-    "description": {
-      "part1": "Para empeza, edita <1>src/App.js</1> y guarda para recargar.",
-      "part2": "Cambia de lenguaje entre inglés y español con los botones de arriba",
-      "part3": "textito nuevo para ver como sale jejieji"
-    },
-    "end": "el final",
-    "hellos" : {
-      "1" : "Hola Inicio",
-      "2" : "Hola Nosotros",
-      "3" : "Hola Clases",
-      "4" : "Hola Contacto"
+      "2": "NOSOTROS",
+      "3": "CLASES",
+      "4": "ENCÚENTRANOS"
     },
     "home" : {
+      "titlePage" : "GUBA DOCE PARES MÉXICO",
       "titleName" : "Un clan de auténticos practicantes de filipino Eskrima-Kali-Arnis, con linaje directo de los maestros originales y sus antiguas enseñanzas",
       "aboutUs" : "Nosotros",
       "classes" : "Clases",
       "findUs" : "Encuéntranos"
-    }
+    },
+    "footer" : "GUBA DOCE PARES MÉXICO | GUADALAJARA, AGUASCALIENTES, SALTILLO"
   }

@@ -15,9 +15,8 @@ function Home() {
                     <img src={imgHome} alt="for decoration"/>
                 </div>
                 <div className="textHome">
-                    <h1>GUBA DOCE PARES MEXICO</h1>
-                    <h3>A clan of authentic Filipino Eskrima-Kali-Arnis with direct lineage to the original Masters
-                         and their old teachings.</h3>
+                    <h1>{t("home.titlePage")}</h1>
+                    <h3>{t("home.titleName")}</h3>
                 </div>
             </div>
         </>

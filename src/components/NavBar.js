@@ -11,10 +11,10 @@ import SPA from '../assets/img/SPA.png';
 
 function NavBar() {
     const { t, i18n } = useTranslation();
-
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
-    };
+      };
+
     const [sideBar, setSiderbar] = useState(false)
     const showSidebar = () => setSiderbar(!sideBar)
 
@@ -83,15 +83,15 @@ function NavBar() {
 
             <div className="contenderMenu">
                 <div className="language">
-                    <img src={SPA} alt="Boton para lenguaje Español"/>
-                    <img src={ENG} alt="Button for English Language"/>
+                    <img src={SPA} onClick={() => changeLanguage('ESP')} style={{"pointer-events": "all"}} alt="Boton para lenguaje Español"/>
+                    <img src={ENG} onClick={() => changeLanguage('ENG')} style={{"pointer-events": "all"}} alt="Button for English Language"/>
                 </div>
                 <div  className="menuLinks">
                         <ul>
                             <li>GDPMX</li>
-                            <li>NOSOTROS</li>
-                            <li>CLASES</li>
-                            <li>ENCÚENTRANOS</li>
+                            <li>{t("menu.2")}</li>
+                            <li>{t("menu.3")}</li>
+                            <li>{t("menu.4")}</li>
                         </ul>
                 </div>
                 <div className="iconsSocials">

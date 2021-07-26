@@ -3,6 +3,7 @@ import React, { Component, Suspense } from 'react';
 import { useTranslation, withTranslation, Trans } from 'react-i18next';
 
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './styles/App.scss';
@@ -30,6 +31,7 @@ function Page() {
             <Route path='/classes' exact component={Classes}/>
             <Route path='/contact' exact component={Contact}/>
           </Switch>
+          <Footer/>
         </Router>
 
     </div>
