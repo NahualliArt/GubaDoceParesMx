@@ -48,11 +48,19 @@
             margin: 0; padding: 0;
             overflow: hidden;
 
-            li{
-                list-style: none;
-                float: left;
-                padding: 12px 32px;
+            .linksMenu{
+                color: App.$white;
+
+                li{
+                    float: left;
+                    padding: 12px 32px;
+                }
             }
+
+            .linksMenu:hover{
+                color: App.$red;
+                text-decoration: underline;
+            }            
         }
     }
 

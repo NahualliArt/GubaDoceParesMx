@@ -12,5 +12,14 @@
       "classes" : "Clases",
       "findUs" : "Encuéntranos"
     },
-    "footer" : "GUBA DOCE PARES MÉXICO | GUADALAJARA, AGUASCALIENTES, SALTILLO"
+    "footer" : "GUBA DOCE PARES MÉXICO | GUADALAJARA, AGUASCALIENTES, SALTILLO",
+    "about" :{
+      "titlePage" : "Nosotros",
+      "introPage" : "Somos un equipo con presencia en México desde hace más de 6 años, tenemos diferentes puntos de entrenamiento, cada uno líderado por un miembro destacado de nuestro equipo, conócelos.",
+      "miguelTitle" : "Presidente",
+      "migelText1" : "Especializado en Defensa personal y Acondicionamiento Físico. Actualmente se encuentra en Austin TX.",
+      "migelText2" : "Lídera a nuestra escuela en México, USA, Ecuador y Colombia.",
+      "instructor" : "Instructores",
+      "abigailText" : "La instrutura, Abigail, entrena en Guadalajara Jal."
+    }
   }

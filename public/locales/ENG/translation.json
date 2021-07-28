@@ -12,6 +12,15 @@
       "classes" : "Classes",
       "findUs" : "Find Us"
     },
-    "footer" : "GUBA DOCE PARES MEXICO | GUADALAJARA, AGUASCALIENTES, SALTILLO"
+    "footer" : "GUBA DOCE PARES MEXICO | GUADALAJARA, AGUASCALIENTES, SALTILLO",
+    "about" :{
+      "titlePage" : "About Us",
+      "introPage" : "We are a team with presence in Mexico for more than 6 years, we have different training points, each one led by an outstanding member of our team, get to know them.",
+      "miguelTitle" : "President",
+      "migelText1" : "Specializing in Self Defense and Fitness. He is currently located in Austin TX.",
+      "migelText2" : "He leads our school in Mexico, also leads the training teams in USA, Ecuador and Colombia.",
+      "instructor" : "Instructors",
+      "abigailText" : "The instructor, Abigail, trains in Guadalajara Jal."
+    }
     
   }
