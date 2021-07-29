@@ -2,6 +2,7 @@
 
 .containerAbout{
     width: 100vw;
+    height: auto;
     position: relative;
     top: 5vh; left: 0;
     z-index: -1;
@@ -17,7 +18,7 @@
     .titleAbout{
         grid-column-start: 1;
         grid-column-end: -1;   
-        padding: 5% 25%;
+        padding: 5%;
         background-image: url('../assets/img/about_hero.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -43,7 +44,10 @@
         color: App.$white;
 
         img{
-            margin: 0 22px;
+            
+            width: 400px;
+            height: auto;
+            margin: 0 10px;
         }
 
         .aboutMiguel{

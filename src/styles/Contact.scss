@@ -1,0 +1,35 @@
+@use "./App.scss";
+
+.containerContact{
+    width: 100vw;
+    height: auto;
+    position: relative;
+    top: 5vh; left: 0;
+    z-index: -1;
+    /** GRID CONTAINER **/
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: 4;
+
+    overflow: hidden;
+    background-image: url('../assets/img/background.jpg');
+    
+    text-align: center;
+
+    .titleContact{
+        grid-column-start: 1;
+        grid-column-end: -1;   
+        padding: 5%;
+        text-align: center;
+        color: App.$white;
+
+        h1{
+            font-family: 'Krona One', sans-serif;
+            font-size: 60px;
+        }
+
+
+    }
+
+}

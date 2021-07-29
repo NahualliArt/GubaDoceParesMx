@@ -1,6 +1,6 @@
-import React, { Component, Suspense } from 'react';
+import React, { Suspense } from 'react';
 
-import { useTranslation, withTranslation, Trans } from 'react-i18next';
+/**import { useTranslation } from 'react-i18next';**/
 
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
@@ -15,10 +15,10 @@ import Contact from './pages/Contact';
 
 // page uses the hook
 function Page() {
-  const { t, i18n } = useTranslation();
+  /**const { i18n } = useTranslation();
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
-  };
+  };**/
 
   return (
     <div className="App">

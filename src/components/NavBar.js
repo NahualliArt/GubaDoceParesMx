@@ -1,9 +1,10 @@
-import React, {useState} from 'react';
+/*import React, {useState} from 'react';*/
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { useTranslation, withTranslation, Trans } from 'react-i18next';
+import { useTranslation} from 'react-i18next';
 import '../styles/App.scss';
 import '../styles/NavBar.scss';
-import { IconContext } from 'react-icons';
+/*import { IconContext } from 'react-icons';*/
 import * as FaIcons from "react-icons/fa/index";    
 import ENG from '../assets/img/ENG.png';
 import SPA from '../assets/img/SPA.png';
@@ -15,8 +16,8 @@ function NavBar() {
         i18n.changeLanguage(lng);
       };
 
-    const [sideBar, setSiderbar] = useState(false)
-    const showSidebar = () => setSiderbar(!sideBar)
+    /**const [sideBar, setSiderbar] = useState(false)
+    const showSidebar = () => setSiderbar(!sideBar)**/
 
     return (
         <>
@@ -83,8 +84,8 @@ function NavBar() {
 
             <div className="contenderMenu">
                 <div className="language">
-                    <img src={SPA} onClick={() => changeLanguage('ESP')} style={{"pointer-events": "all"}} alt="Boton para lenguaje Español"/>
-                    <img src={ENG} onClick={() => changeLanguage('ENG')} style={{"pointer-events": "all"}} alt="Button for English Language"/>
+                    <img src={SPA} onClick={() => changeLanguage('ESP')} style={{'pointer-events': "all"}} alt="Boton para lenguaje Español"/>
+                    <img src={ENG} onClick={() => changeLanguage('ENG')} style={{'pointer-events': "all"}} alt="Button for English Language"/>
                 </div>
                 <div  className="menuLinks">
                         <ul>

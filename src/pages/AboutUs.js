@@ -1,16 +1,17 @@
 import React from 'react';
-import { useTranslation, withTranslation, Trans } from 'react-i18next';
+import { useTranslation} from 'react-i18next';
 import '../styles/App.scss';
 import '../styles/AboutUs.scss';
 import imgMiguel from '../assets/img/miguelP.png';
 import imgAbigail from '../assets/img/abigailP.png'
 
 import * as FaIcons from "react-icons/fa/index"; 
-import { Link } from 'react-router-dom';
+/*import { Link } from 'react-router-dom';
+import SliderInstructors from '../components/SliderInstructors';*/
 
 function AboutUs() {
     
-    const { t, i18n } = useTranslation();
+    const { t} = useTranslation();
     return (
         <>
            <div className="containerAbout">
@@ -44,6 +45,7 @@ function AboutUs() {
                                 <FaIcons.FaWhatsappSquare/>
                             </div>
                    </div>
+                   {/*<SliderInstructors/>*/}
                </div>
            </div>
         </>

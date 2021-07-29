@@ -1,12 +1,12 @@
 import React from 'react';
-import { useTranslation, withTranslation, Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import '../styles/App.scss';
 import '../styles/Home.scss';
 import imgHome from '../assets/img/29.png';
 
 function Home() {
 
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
 
     return (
         <>
