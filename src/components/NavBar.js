@@ -5,7 +5,9 @@ import { useTranslation} from 'react-i18next';
 import '../styles/App.scss';
 import '../styles/NavBar.scss';
 /*import { IconContext } from 'react-icons';*/
-import * as FaIcons from "react-icons/fa/index";    
+import * as FaIcons from "react-icons/fa/index"; 
+import * as SiIcon from "react-icons/si";
+import * as RiIcon from "react-icons/ri";   
 import ENG from '../assets/img/ENG.png';
 import SPA from '../assets/img/SPA.png';
 
@@ -101,16 +103,16 @@ function NavBar() {
                             <FaIcons.FaFacebookSquare/>
                         </li>
                         <li>
-                            <FaIcons.FaInstagramSquare/>
+                            <RiIcon.RiInstagramFill/>
                         </li>
                         <li>
                             <FaIcons.FaYoutube/>
                         </li>
                         <li>
-                            <FaIcons.FaWhatsappSquare/>
+                            <RiIcon.RiWhatsappFill/>
                         </li>
                         <li>
-                            <FaIcons.FaYoutube/>
+                            <SiIcon.SiTiktok/>
                         </li>
                     </ul>
                 </div>

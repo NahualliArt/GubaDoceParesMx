@@ -2,7 +2,7 @@
 
 .containerContact{
     width: 100vw;
-    height: auto;
+    height: 90vh;
     position: relative;
     top: 5vh; left: 0;
     z-index: -1;
@@ -10,12 +10,11 @@
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: 4;
+    grid-template-rows: 2;
 
     overflow: hidden;
     background-image: url('../assets/img/background.jpg');
     
-    text-align: center;
 
     .titleContact{
         grid-column-start: 1;
@@ -30,6 +29,64 @@
         }
 
 
+    }
+
+    .writeUs{
+        grid-column: span 5;
+        margin: auto;
+
+        h3{
+            font-family: 'Krona One', sans-serif;
+            font-size: 30px;
+            color: App.$white;
+        }
+
+        .iconWrite{
+            margin-right: 12px;
+            color: App.$white;
+        }
+
+        ul{
+            list-style-type: none;
+            margin:4% 0; padding: 0;
+            overflow: hidden;
+            
+            li{
+                padding: .4rem;
+
+                a{
+                    color: App.$white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .mapsClasses{
+        grid-column: span 10;
+        display: flex;
+
+        div{
+            padding: 2%;
+            text-align: center;
+
+            h3{
+                font-family: 'Krona One', sans-serif;
+                font-size: 20px;
+                margin-top: 15px;
+                color: App.$white;
+            }
+
+            .socialsClass{
+                
+                a{
+                    padding: 5px;
+                    font-size: 18px;
+                    color: App.$white;
+                    text-decoration: none;
+                }
+            }
+        }
     }
 
 }

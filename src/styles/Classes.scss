@@ -66,10 +66,38 @@
     }
 
     .joinClasses{
+        height: 100vh;
         grid-column: 2/15;
         color: App.$white;
         background-color: App.$red;
         height: 50vh;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 4%;
+
+        h1{
+            font-family: 'Krona One', sans-serif;
+            font-size: 30px;
+            margin-bottom: 12px;
+        }
+
+        h4{
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+
+        div{
+            background-color: App.$white;
+            padding: 1% 12%;
+            border-radius: 20px;
+
+            p{
+                color: App.$black;
+            }
+        }
+
     }
 
 }

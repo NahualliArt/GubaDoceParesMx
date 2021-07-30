@@ -21,6 +21,22 @@
       "migelText2" : "He leads our school in Mexico, also leads the training teams in USA, Ecuador and Colombia.",
       "instructor" : "Instructors",
       "abigailText" : "The instructor, Abigail, trains in Guadalajara Jal."
+    },
+    "classes" :{
+      "titlePage" : "Classes",
+      "introPage" : "Learn from the best, we train at different times and places. We also provide seminars and training, from the general public to security personnel.",
+      "info": "WE GIVE CLASSES AT",
+      "info1" : "JOIN OUR TEAM",
+      "joinTitle" : "WOULD YOU LIKE TO BECOME AN INSTRUCTOR?",
+      "joinText" : "If you would like to be able to give classes, organize your own events, seminars and/or trainings, with certification and official endorsement of the Guba Doce Pares International association. Complete our special course and get certified as an official instructor.",
+      "contact" : "CONTAC US"
+    },
+    "contact" : {
+      "title" : "CONTACT US",
+      "writeUs" : "Write us!",
+      "Email" : "Send us an Email",
+      "Whats" : "Send us a WhatsApp message",
+      "Mess" : "Talk to us by Messenger"
     }
     
   }

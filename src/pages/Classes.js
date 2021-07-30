@@ -49,7 +49,7 @@ function Classes() {
                 <div className="joinClasses">
                     <h1>{t('classes.joinTitle')}</h1>
                     <h4>{t('classes.joinText')}</h4>
-                    <p>{t('classes.contact')}</p>
+                    <div><p>{t('classes.contact')}</p></div>
                 </div>
              </div>
         </>

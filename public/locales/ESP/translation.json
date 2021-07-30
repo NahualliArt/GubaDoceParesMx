@@ -21,5 +21,21 @@
       "migelText2" : "Lídera a nuestra escuela en México, USA, Ecuador y Colombia.",
       "instructor" : "Instructores",
       "abigailText" : "La instrutura, Abigail, entrena en Guadalajara Jal."
+    },
+    "classes" :{
+      "titlePage" : "Clases",
+      "introPage" : "Aprende de los mejores, entrenamos en diferentes horarios y lugares. Ofrecemos así mismo, seminarios y capacitaciones, desde público en general, hasta personal de seguridad.",
+      "info": "DAMOS CLASES EN",
+      "info1" : "ÚNETE A NUESTRO EQUIPO",
+      "joinTitle" : "¿TE GUSTARÍA SER INSTRUCTOR?",
+      "joinText" : "Si te gustaría poder dar clases, organizar tus propios eventos, seminarios y/o capacitaciones, con certificación y aval oficial de la asosiación Guba Doce Pares International. Completa nuestro curso especial y certificate como instructor oficial.",
+      "contact" : "CONTÁCTANOS"
+    },
+    "contact" : {
+      "title" : "CONTÁCTANOS",
+      "writeUs" : "Escríbenos",
+      "Email" : "Envíanos un Email",
+      "Whats" : "Mandanos un WhatsApp",
+      "Mess" : "Escríbenos por Messenger"
     }
   }
