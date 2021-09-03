@@ -39,11 +39,11 @@ function Classes() {
                 </div>
                 <div className="placesClassesSection">
                    <h4>{t('classes.info')}</h4>
-                   <div className="placesClasses">
+                   
                         <p>AGUASCALIENTES</p>
                         <p>GAUDALAJARA</p>
                         <p>SALTILLO</p>
-                   </div>
+                   
                    <h4>{t('classes.info1')}</h4>
                 </div>
                 <div className="joinClasses">

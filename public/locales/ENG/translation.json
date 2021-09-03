@@ -20,7 +20,9 @@
       "migelText1" : "Specializing in Self Defense and Fitness. He is currently located in Austin TX.",
       "migelText2" : "He leads our school in Mexico, also leads the training teams in USA, Ecuador and Colombia.",
       "instructor" : "Instructors",
-      "abigailText" : "The instructor, Abigail, trains in Guadalajara Jal."
+      "abigailText" : "The instructor, Abigail, trains in Guadalajara Jal.",
+      "yasminText" : "The instructor, Yasmin, trains in Aguascalientes Ags.",
+      "carlosText" : "The instructor, Carlos, trains in Aguascalientes Ags."
     },
     "classes" :{
       "titlePage" : "Classes",

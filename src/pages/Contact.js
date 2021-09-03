@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import '../styles/App.scss';
-import '../styles/Contact.scss'
+import '../styles/Contact.scss';
 import * as FaIcons from "react-icons/fa/index"; 
 import * as SiIcon from "react-icons/si";
 import * as RiIcon from "react-icons/ri";

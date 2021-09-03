@@ -20,7 +20,9 @@
       "migelText1" : "Especializado en Defensa personal y Acondicionamiento Físico. Actualmente se encuentra en Austin TX.",
       "migelText2" : "Lídera a nuestra escuela en México, USA, Ecuador y Colombia.",
       "instructor" : "Instructores",
-      "abigailText" : "La instrutura, Abigail, entrena en Guadalajara Jal."
+      "abigailText" : "La instrutura, Abigail, entrena en Guadalajara Jal.",
+      "yasminText" : "La instructora, Yasmin, entrena en Aguascalientes Ags.",
+      "carlosText" : "El instructor, Carlos, entrena en Aguascalientes Ags."
     },
     "classes" :{
       "titlePage" : "Clases",

@@ -13,6 +13,8 @@ import AboutUs from './pages/AboutUs';
 import Classes from './pages/Classes';
 import Contact from './pages/Contact';
 
+
+
 // page uses the hook
 function Page() {
   /**const { i18n } = useTranslation();

@@ -5,12 +5,12 @@
     height: auto;
     position: relative;
     top: 5vh; left: 0;
-    z-index: -1;
+    z-index: 1;
     /** GRID CONTAINER **/
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: 4;
+    grid-template-rows: 6;
 
     overflow: hidden;
     background-image: url('../assets/img/background.jpg');
@@ -18,6 +18,7 @@
     text-align: center;
 
     .titleClasses{
+        grid-row: 1/2;
         grid-column-start: 1;
         grid-column-end: -1;   
         padding: 5%;
@@ -39,34 +40,52 @@
     }
 
     .galleryClasses{
+        grid-row: 3/4;
         grid-column: 2/15;
         overflow: hidden;
         display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
 
-        img{
-            padding: 3% 0;
+        div{
+            padding: 2% 1%;
+
+            img{
+                padding: 8px;
+            }
         }
         
     }
 
     .placesClassesSection{
+        grid-row: 4/5;
         grid-column: 2/15;
         display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
         color: App.$white;
         padding: 2%;
 
-        .placesClasses{
-            display: flex;
-            margin: auto;
-
-            p{
-                padding: 0 2% 0 2%;
+            h4{
+                text-align: left;
             }
-        }
+ 
+            p{
+                padding: 1% 3%;
+                margin: 0 1%;
+                border-radius: 5px;
+                color: App.$black;
+                background-color: App.$hoverWhite !important;
+                
+            }
+            
     }
 
     .joinClasses{
         height: 100vh;
+        grid-row: 5/6;
         grid-column: 2/15;
         color: App.$white;
         background-color: App.$red;
@@ -76,6 +95,7 @@
         justify-content: center;
         align-items: center;
         padding: 4%;
+        margin-bottom: 12%;
 
         h1{
             font-family: 'Krona One', sans-serif;

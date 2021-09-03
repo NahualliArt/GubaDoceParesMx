@@ -91,10 +91,10 @@ function NavBar() {
                 </div>
                 <div  className="menuLinks">
                         <ul>
-                            <Link to="/" className="linksMenu"><li>GDPMX</li></Link>
-                            <Link to="/aboutUs" className="linksMenu"><li>{t("menu.2")}</li></Link>
-                            <Link to="/classes" className="linksMenu"><li>{t("menu.3")}</li></Link>
-                            <Link to="/contact" className="linksMenu"><li>{t("menu.4")}</li></Link>
+                            <Link to="/" className="linksMenu" activeClassName="selected"><li>GDPMX</li></Link>
+                            <Link to="/aboutUs" className="linksMenu" activeClassName="selected"><li>{t("menu.2")}</li></Link>
+                            <Link to="/classes" className="linksMenu" activeClassName="selected"><li>{t("menu.3")}</li></Link>
+                            <Link to="/contact" className="linksMenu" activeClassName="selected"><li>{t("menu.4")}</li></Link>
                         </ul>
                 </div>
                 <div className="iconsSocials">

@@ -9,8 +9,8 @@
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: 8;
-
+    grid-template-rows: 1;
+    z-index: 3;
 
     background-color: App.$black;
     color: App.$white;
@@ -29,6 +29,15 @@
             height: auto;
             margin: 2px;
         }
+
+        img:hover{
+            background-color: App.$red;
+            cursor: pointer;
+        }
+
+        img:active{
+            box-shadow: inset 2px 2px 12px black;
+        }
     }
 
     .menuLinks{
@@ -43,7 +52,7 @@
 
 
         ul{
-            text-decoration: underline;
+            
             list-style-type: none;
             margin: 0; padding: 0;
             overflow: hidden;
@@ -53,13 +62,19 @@
 
                 li{
                     float: left;
-                    padding: 12px 32px;
+                    padding: 12px 32px; 
+                    position: relative;
                 }
+
+                li:hover{
+                    text-decoration: underline;
+                    text-underline-offset: 6px;
+                }
+
             }
 
             .linksMenu:hover{
                 color: App.$red;
-                text-decoration: underline;
             }            
         }
     }
@@ -85,6 +100,11 @@
                 list-style: none;
                 float: left;
                 padding: 12px;
+            }
+
+            li:hover{
+                color: App.$red;
+                cursor: pointer;
             }
         }
     }
