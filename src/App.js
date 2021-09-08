@@ -5,6 +5,7 @@ import React, { Suspense } from 'react';
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import BottomMenu from './components/BottomMenu';
+import TopMenu from './components/TopMenu';
 
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './styles/App.scss';
@@ -28,6 +29,7 @@ function Page() {
 
         <Router>
           <NavBar/>
+          <TopMenu/>
           <Switch>
             <Route path='/' exact component={Home}/>
             <Route path='/aboutUs' exact component={AboutUs}/>

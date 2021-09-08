@@ -7,9 +7,10 @@ import '../styles/BottomMenu.scss';
 /*import { IconContext } from 'react-icons';*/
 import * as FaIcons from "react-icons/fa/index"; 
 
-import ENG from '../assets/img/ENG.png';
-
-
+import homeImg from '../assets/menuIcons/home.png';
+import usImg from '../assets/menuIcons/us.png';
+import clasesImg from '../assets/menuIcons/clases.png';
+import contact from '../assets/menuIcons/contact.png';
 
 function BottomMenu() {
     const { t, i18n } = useTranslation();
@@ -22,29 +23,29 @@ function BottomMenu() {
             <div className="navigationBar">
                 <Link to="/" className="option" activeClassName="selected">
                     <div>   
-                        <img src={ENG} alt="prueba" />
+                        <img src={homeImg} alt="prueba" />
                         <p>GDPMX</p>
                     </div>
                 </Link>
 
                 <Link to="/aboutUs" className="option" activeClassName="selected">
                     <div>   
-                        <img src={ENG} alt="prueba" />
+                        <img src={usImg} alt="prueba" />
                         <p>{t("menu.2")}</p>
                     </div>
                 </Link>
 
                 <Link to="/classes" className="option" activeClassName="selected">
                     <div>   
-                        <img src={ENG} alt="prueba" />
+                        <img src={clasesImg} alt="prueba" />
                         <p>{t("menu.3")}</p>
                     </div>                            
                 </Link>
 
                 <Link to="/contact" className="option" activeClassName="selected">
                     <div>   
-                        <img src={ENG} alt="prueba" />
-                        <p>{t("menu.4")}</p>
+                        <img src={contact} alt="prueba" />
+                        <p>{t("menu.5")}</p>
                     </div>
                 </Link>
         </div>
