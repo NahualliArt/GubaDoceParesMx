@@ -18,9 +18,7 @@
 
 .titleAbout{
     height: 280px;
-    grid-row: 1/2;
-    grid-column-start: 1;
-    grid-column-end: -1;   
+    grid-column: 1 / -1;   
     padding: 5%;
     background-image: url('../assets/img/about_hero.png');
     background-repeat: no-repeat;
@@ -39,8 +37,6 @@
 
 }
 
-
-
     .miguelAbout{
         grid-row: 3/4;
         grid-column:2/9;
@@ -49,8 +45,7 @@
         justify-content: center;
         color: App.$white;
     
-        img{
-            
+        img{ 
             width: 30vw;
             height: auto;
             margin: 0 10px;
@@ -80,9 +75,7 @@
             text-align: center;
             font-size: 25px;
         }
-    }
-    
-    
+    }  
     
     .instructorsAbout{
         grid-row: 3/4;
@@ -120,5 +113,53 @@
         }
     }
 
+    @media only screen and (max-width: 768px) {
+        .containerAbout{
+            position: absolute;
+            grid-template-columns: repeat(15, 1fr);
+            top:0; left: 0;
+            padding: 0 12% 25% 12%;
+            justify-content: center;
+    
+            .titleAbout{
+                grid-column: 1 / -1;
+                justify-self: center;
+                padding: 4% 15%;
+                background-position: center bottom;
+
+                h1{
+                   font-size: 45px; 
+                }
+                
+                h4{
+                    padding: 4% 1%;
+                }
+            }
+
+            .miguelAbout{
+                grid-column: 1 / -1;
+                grid-row: 2/3;
+                flex-flow: column wrap;
+
+                img{ 
+                    min-width: 80vw;
+                    margin-bottom: 2%;
+                }
+
+                .aboutMiguel{
+                    margin-top: 12px;
+                    padding: 0 11%;
+                }
+            
+            }
+
+            .instructorsAbout{
+                grid-column: 1 / -1;
+            }
+
+        }
+        
+    }
+    
 
 

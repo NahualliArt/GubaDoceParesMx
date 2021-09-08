@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import '../styles/App.scss';
 import '../styles/Home.scss';
 import imgHome from '../assets/img/29.png';
+import logoImg from '../assets/img/logo_gdl.png';
 
 function Home() {
 
@@ -12,7 +13,9 @@ function Home() {
         <>
             <div className="containerHome">
                 <div className="imageHome">
-                    <img src={imgHome} alt="for decoration"/>
+                    <img src={imgHome} className="desktopImg" alt="for decoration"/>
+                    <img src={logoImg} className="responsiveImg" alt="Guba Doce Pares Mexico Logo" />
+
                 </div>
                 <div className="textHome">
                     <h1>{t("home.titlePage")}</h1>

@@ -4,6 +4,7 @@ import React, { Suspense } from 'react';
 
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import BottomMenu from './components/BottomMenu';
 
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './styles/App.scss';
@@ -33,6 +34,7 @@ function Page() {
             <Route path='/classes' exact component={Classes}/>
             <Route path='/contact' exact component={Contact}/>
           </Switch>
+          <BottomMenu/>
           <Footer/>
         </Router>
 

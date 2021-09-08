@@ -34,3 +34,14 @@ $titleFont-h4: 'Krona One', sans-serif, 35px;
   text-decoration: underline;
   text-underline-offset: 6px;
 }
+
+.navigationBar{
+  display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .navigationBar{
+      display: flex !important;
+  }
+}
+
