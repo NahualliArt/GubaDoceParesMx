@@ -108,10 +108,12 @@
             margin-bottom: 12px;
         }
 
-        div{
+        .contactDiv{
             background-color: App.$white;
             padding: 1% 12%;
             border-radius: 20px;
+            text-decoration: none;
+            text-align: center;
 
             p{
                 color: App.$black;
@@ -186,7 +188,7 @@
                 padding: 0 13%;
             }
     
-            div{
+            .contactDiv{
                 padding: 2% 12%;
             }
         }

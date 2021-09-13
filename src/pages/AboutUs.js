@@ -33,8 +33,9 @@ function AboutUs() {
                                     <p>{t('about.migelText2')}</p>
                                 </div>
                                 <div className="socialsMiguel">
-                                    <FaIcons.FaFacebookSquare/>
-                                    <FaIcons.FaWhatsappSquare/>
+                                    <a href="https://www.facebook.com/miguel.arroyo.92">
+                                        <FaIcons.FaFacebookSquare/>
+                                    </a>
                                 </div>
                             </div>
                     </div>

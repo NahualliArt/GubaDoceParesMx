@@ -23,13 +23,13 @@ function Contact() {
                    <ul>
                        <li>
                             <SiIcon.SiMailDotRu className="iconWrite"/>
-                            <a href="http://">
+                            <a href="mailto:contact@gubadocepares.mx">
                                {t('contact.Email')}
                             </a>
                         </li>
                        <li>
                             <RiIcon.RiWhatsappFill className="iconWrite"/>
-                            <a href="http://">
+                            <a href="https://wa.link/zmgfv8">
                                {t('contact.Whats')}
                             </a>
                         </li>
@@ -53,8 +53,8 @@ function Contact() {
                         title="Aguascalientes GPS"/>
                     <h3>AGUASCALIENTES</h3>
                     <div className="socialsClass">
-                        <a href="http://"><FaIcons.FaFacebookSquare className="iconWrite"/></a>
-                        <a href="http://"><RiIcon.RiInstagramFill className="iconWrite"/></a>
+                        <a href="https://www.facebook.com/xvalhallagym"><FaIcons.FaFacebookSquare className="iconWrite"/></a>
+                        {/*<a href="http://"><RiIcon.RiInstagramFill className="iconWrite"/></a>*/}
                     </div>
                 </div>
                 <div className="gdlGps">
@@ -67,8 +67,8 @@ function Contact() {
                         title="Guadalajara GPS"/>
                     <h3>GAUDALAJARA</h3>
                     <div className="socialsClass">
-                        <a href="http://"><RiIcon.RiInstagramFill className="iconWrite"/></a>
-                        <a href="http://"><SiIcon.SiTiktok className="iconWrite"/></a>
+                        <a href="https://www.instagram.com/gubadoceparesgdl/"><RiIcon.RiInstagramFill className="iconWrite"/></a>
+                        <a href="https://www.tiktok.com/@nahualliart?"><SiIcon.SiTiktok className="iconWrite"/></a>
                     </div> 
                 </div>   
             </div>     

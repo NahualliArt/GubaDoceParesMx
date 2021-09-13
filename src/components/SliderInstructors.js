@@ -80,8 +80,12 @@ const  SliderInstructors = () => {
                         <h3>Abigail Pérez</h3>
                         <p>{t('about.abigailText')}</p>
                         <div className="socialsInstructors">
-                            <FaIcons.FaFacebookSquare/>
-                            <FaIcons.FaWhatsappSquare/>
+                            <a href="https://www.facebook.com/gubadoceparesgdl">
+                                <FaIcons.FaFacebookSquare/>
+                            </a>
+                            <a href="https://wa.link/zmgfv8">
+                                <FaIcons.FaWhatsappSquare/>
+                            </a>
                         </div>
                     </div>
 
@@ -89,18 +93,18 @@ const  SliderInstructors = () => {
                         <img src={imgYasmin} alt="Yasmin Rangel"/>
                         <h3>Yasmin Rangel</h3>
                         <p>{t('about.yasminText')}</p>
-                        <div className="socialsInstructors">
+                        {/*<div className="socialsInstructors">
                             <FaIcons.FaWhatsappSquare/>
-                        </div>
+                        </div>*/}
                     </div>
 
                     <div className="slider" id="slider3">
                         <img src={imgCarlos} alt="Juan Carlos Reyes"/>
                         <h3>J. Carlos Reyes</h3>
                         <p>{t('about.carlosText')}</p>
-                        <div className="socialsInstructors">
+                        {/*<div className="socialsInstructors">
                             <FaIcons.FaWhatsappSquare/>
-                        </div>
+                        </div>*/}
                     </div>
                 </div>
 

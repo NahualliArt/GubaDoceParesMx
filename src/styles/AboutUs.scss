@@ -16,6 +16,14 @@
     padding-bottom: 6%;
 }
 
+a{
+    color: App.$white;
+}
+
+a:hover{
+    color: App.$red;
+}
+
 .titleAbout{
     height: 280px;
     grid-column: 1 / -1;   
@@ -106,7 +114,8 @@
             height: auto;
         }
         
-        .socialsInstructors{
+        a .socialsInstructors{
+            color: App.$black;
             margin-top: 22px;       
             text-align: center;
             font-size: 25px;

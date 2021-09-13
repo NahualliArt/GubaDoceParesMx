@@ -43,6 +43,9 @@ $titleFont-h4: 'Krona One', sans-serif, 35px;
   display: none !important;
 }
 
+.navbar{
+  display: none !important;
+}
 
 @media only screen and (max-width: 768px) {
   .navigationBar{
@@ -52,6 +55,11 @@ $titleFont-h4: 'Krona One', sans-serif, 35px;
   .navigationTopBar{
     display: flex !important;
   }
+
+  .navbar{
+    display: block !important;
+  }
+
 
 }
 

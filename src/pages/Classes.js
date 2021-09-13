@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation} from 'react-i18next';
+import { Link } from 'react-router-dom';
 import '../styles/App.scss';
 import '../styles/Classes.scss';
 import img1 from '../assets/img/01-classes.png';
@@ -49,7 +50,10 @@ function Classes() {
                 <div className="joinClasses">
                     <h1>{t('classes.joinTitle')}</h1>
                     <h4>{t('classes.joinText')}</h4>
-                    <div><p>{t('classes.contact')}</p></div>
+                    <Link to="/contact" className="contactDiv">
+                        <div><p>{t('classes.contact')}</p></div>
+                    </Link>
+                    
                 </div>
              </div>
         </>

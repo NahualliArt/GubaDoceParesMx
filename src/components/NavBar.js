@@ -39,19 +39,19 @@ function NavBar() {
                 <div className="iconsSocials">
                     <ul>
                         <li>
-                            <FaIcons.FaFacebookSquare/>
+                            <a href="https://www.facebook.com/gubadoceparesgdl"><FaIcons.FaFacebookSquare/></a>
                         </li>
                         <li>
-                            <RiIcon.RiInstagramFill/>
+                            <a href="https://www.instagram.com/gubadoceparesgdl/"><RiIcon.RiInstagramFill/></a>
                         </li>
                         <li>
-                            <FaIcons.FaYoutube/>
+                            <a href="https://www.youtube.com/channel/UCGJUxHLd1JrWiTo8hUzn_oQ"><FaIcons.FaYoutube/></a>
                         </li>
                         <li>
-                            <RiIcon.RiWhatsappFill/>
+                            <a href="https://wa.link/zmgfv8"><RiIcon.RiWhatsappFill/></a>
                         </li>
                         <li>
-                            <SiIcon.SiTiktok/>
+                            <a href="https://www.tiktok.com/@nahualliart?"><SiIcon.SiTiktok/></a>
                         </li>
                     </ul>
                 </div>
