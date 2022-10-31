@@ -4,13 +4,12 @@ import '../styles/App.scss';
 import '../styles/AboutUs.scss';
 import '../styles/SliderInstructors.scss';
 import imgMiguel from '../assets/img/miguelP.png';
-/*import imgAbigail from '../assets/img/abigailP.png';*/
-
 import * as FaIcons from "react-icons/fa/index"; 
 /*import { Link } from 'react-router-dom';*/
 // import SliderInstructors from '../components/SliderInstructors';
 import * as RiIcon from "react-icons/ri"; 
 import imgAbigail from '../assets/img/abigailP.png'; 
+import '../styles/SliderInstructors.scss';
 
 
 
