@@ -8,7 +8,9 @@ import imgMiguel from '../assets/img/miguelP.png';
 
 import * as FaIcons from "react-icons/fa/index"; 
 /*import { Link } from 'react-router-dom';*/
-import SliderInstructors from '../components/SliderInstructors';
+// import SliderInstructors from '../components/SliderInstructors';
+import * as RiIcon from "react-icons/ri"; 
+import imgAbigail from '../assets/img/abigailP.png'; 
 
 
 
@@ -42,7 +44,15 @@ function AboutUs() {
                     <div className="instructorsAbout">
                         <h2>{t('about.instructor')}</h2>
                         <div className="infoInstructors">
-                                <SliderInstructors/>
+                            <div className="slider" id="slider1">
+                                <img src={imgAbigail} alt="Abigail Perez"/>
+                                <h3>Abigail Pérez</h3>
+                                <p>{t('about.abigailText')}</p>
+                                <div className="socialsInstructors">
+                                    <a href="https://t.me/gubadoceparesgdl"><RiIcon.RiTelegramFill/></a>
+                                    <a href="https://www.instagram.com/gubadoceparesgdl/"><RiIcon.RiInstagramFill/></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                
