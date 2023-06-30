@@ -3,9 +3,16 @@ import ReactDOM from 'react-dom';
 import './styles/index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
 // import i18n (needs to be bundled ;)) 
 import './i18n';
+//Google
+import TagManager from 'react-gtm-module';
+
+const tagManagerArgs = {
+    gtmId: 'G-1277E4ZHCP'
+}
+
+TagManager.initialize(tagManagerArgs);
 
 ReactDOM.render(
   <React.StrictMode>
