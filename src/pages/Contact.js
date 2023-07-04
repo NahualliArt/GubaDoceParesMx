@@ -52,13 +52,13 @@ function Contact() {
                    {/*  </div>
                 </div> */}
                 <div className="gdlGps">
-                    <iframe 
+                    {/*<iframe 
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.4585468039977!2d-103.35577078604135!3d20.65091550594766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b3847b435bdd%3A0x7699f7744b1e4a77!2sGuba%20Doce%20Pares%20Gdl!5e0!3m2!1sen!2smx!4v1627603237566!5m2!1sen!2smx" 
                         width="328" 
                         height="133" 
                         style={{ border: 0 }}
                         loading="lazy"
-                        title="Guadalajara GPS"/>
+            title="Guadalajara GPS"/>*/}
                     <h3>GAUDALAJARA</h3>
                     <div className="socialsClass">
                         <a href="https://www.instagram.com/gubadoceparesgdl/"><RiIcon.RiInstagramFill className="iconWrite"/></a>
